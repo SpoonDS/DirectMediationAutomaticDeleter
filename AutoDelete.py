@@ -94,7 +94,7 @@ def walk_through_folders_and_delete(ftp, name, password):
                 if folder_date_older_7_days(root):  # check if folder is older then 7 days
                     skipped_dir.append(root)
 
-    log.info("Deleted %s files", str(count))
+    log.info("Deleted %s Directories", str(count))
 
     log.info("###### Non-Deleted Full Directories ######")
     for s_dir in skipped_dir:
