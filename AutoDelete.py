@@ -70,7 +70,7 @@ def walk_through_folders_and_delete(ftp, name, password):
     for line in tree(ftp_walk, ftp, path):
         logging.info(line)
 
-    log.info('###### Deleting Directories ######')
+    log.info('###### Deleting Files/Directories ######')
     log.info('\t• empty directories')
     log.info('\t• older then 7 days')
     log.info('\t• not the only directory for the company')
