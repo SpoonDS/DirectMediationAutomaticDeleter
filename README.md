@@ -8,7 +8,7 @@ Have Python 3.8 or later installed on your workspace (This current iteration is 
 1) Download source code from GITHub 
 2) Open your Terminal (IDE)
 3) cd to downloaded source code folder
-4) cd venev/bin
+4) cd venv/bin
 5) mkdir log
 6) chmod 777 log
 7) chmod 777 python3
