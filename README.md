@@ -13,7 +13,7 @@ Have Python 3.8 or later installed on your workspace (This current iteration is 
 6) chmod 777 log
 7) chmod 777 python3
 8) Run below command
-./python3 ../../AutoDelete.py -n <YourUsername> -p <YourPassword>
+python3 ../../AutoDelete.py -n <YourUsername> -p <YourPassword>
 
 9) That's it. The script will now run, print off what it is doing and automaticaly upload a log file on the direct mediation FTP folder.
 10) Vailidate that new log file is present and non zero in size at "DirectMediationWebSite/cronus/viamail logfiles/"
